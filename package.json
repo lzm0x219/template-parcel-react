@@ -1,15 +1,15 @@
 {
   "name": "template-parcel-react",
   "version": "1.0.0",
-  "description": "",
+  "description": "📦 A minimal React Parcel starter template.",
   "type": "module",
   "source": "index.html",
   "scripts": {
-    "build": "parcel build",
+    "build": "tsc --noEmit && parcel build",
     "build:report": "parcel build --reporter @parcel/reporter-bundle-analyzer",
-    "check": "tsc --noEmit",
     "preinstall": "npx only-allow pnpm",
     "prepare": "is-ci || husky install",
+    "preview": "http-server dist --port 4901 -S --cert ./certs/localhost.cert --key ./certs/localhost.key",
     "serve": "parcel --port 4900 --cert ./certs/localhost.cert --key ./certs/localhost.key",
     "start": "pnpm serve"
   },
@@ -33,6 +33,7 @@
     "@types/parcel-env": "0.0.1",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.8",
+    "http-server": "14.1.1",
     "husky": "8.0.2",
     "is-ci": "3.0.1",
     "lint-staged": "13.0.3",
@@ -41,7 +42,6 @@
     "prettier-plugin-packagejson": "2.3.0",
     "prettier-plugin-tailwindcss": "0.1.13",
     "process": "0.11.10",
-    "serve": "14.1.1",
     "sort-package-json": "2.1.0",
     "tailwindcss": "3.2.3",
     "typescript": "4.8.4"
