@@ -23,7 +23,7 @@ specifiers:
   react-dom: 18.2.0
   react-router-dom: 6.4.3
   sort-package-json: 2.1.0
-  tailwindcss: 3.2.3
+  tailwindcss: 3.2.4
   typescript: 4.8.4
 
 dependencies:
@@ -51,7 +51,7 @@ devDependencies:
   prettier-plugin-tailwindcss: 0.1.13_prettier@2.7.1
   process: 0.11.10
   sort-package-json: 2.1.0
-  tailwindcss: 3.2.3
+  tailwindcss: 3.2.4
   typescript: 4.8.4
 
 packages:
@@ -3255,8 +3255,8 @@ packages:
       stable: 0.1.8
     dev: true
 
-  /tailwindcss/3.2.3:
-    resolution: {integrity: sha512-Xt9D4PK4zuuQCEB8bwK9JUCKmTgUwyac/6b0/42Vqhgl6YJkep+Wf5wq+5uXYfmrupdAD0YY2NY1hyZp1HjRrg==}
+  /tailwindcss/3.2.4:
+    resolution: {integrity: sha512-AhwtHCKMtR71JgeYDaswmZXhPcW9iuI9Sp2LvZPo9upDZ7231ZJ7eA9RaURbhpXGVlrjX4cFNlB4ieTetEb7hQ==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     dependencies:
