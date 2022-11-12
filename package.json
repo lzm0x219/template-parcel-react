@@ -7,11 +7,11 @@
   "scripts": {
     "build": "tsc --noEmit && parcel build",
     "build:report": "parcel build --reporter @parcel/reporter-bundle-analyzer",
+    "dev": "parcel --port 4900 --cert ./certs/localhost.cert --key ./certs/localhost.key",
     "preinstall": "npx only-allow pnpm",
     "prepare": "is-ci || husky install",
     "preview": "http-server dist --port 4901 -S --cert ./certs/localhost.cert --key ./certs/localhost.key",
-    "serve": "parcel --port 4900 --cert ./certs/localhost.cert --key ./certs/localhost.key",
-    "start": "pnpm serve"
+    "start": "pnpm dev"
   },
   "lint-staged": {
     "*.{js,cjs,ts,tsx,md,html,css,json,yml}": "prettier --write",
