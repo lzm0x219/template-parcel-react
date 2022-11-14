@@ -16,7 +16,7 @@ specifiers:
   lint-staged: 13.0.3
   parcel: 2.8.0
   postcss: 8.4.19
-  postcss-custom-properties: 12.1.10
+  postcss-custom-properties: 13.0.0
   postcss-import: 15.0.0
   postcss-url: 10.1.3
   prettier: 2.7.1
@@ -52,7 +52,7 @@ devDependencies:
   lint-staged: 13.0.3
   parcel: 2.8.0_postcss@8.4.19
   postcss: 8.4.19
-  postcss-custom-properties: 12.1.10_postcss@8.4.19
+  postcss-custom-properties: 13.0.0_postcss@8.4.19
   postcss-import: 15.0.0_postcss@8.4.19
   postcss-url: 10.1.3_postcss@8.4.19
   prettier: 2.7.1
@@ -2856,11 +2856,11 @@ packages:
       - supports-color
     dev: true
 
-  /postcss-custom-properties/12.1.10_postcss@8.4.19:
-    resolution: {integrity: sha512-U3BHdgrYhCrwTVcByFHs9EOBoqcKq4Lf3kXwbTi4hhq0qWhl/pDWq2THbv/ICX/Fl9KqeHBb8OVrTf2OaYF07A==}
-    engines: {node: ^12 || ^14 || >=16}
+  /postcss-custom-properties/13.0.0_postcss@8.4.19:
+    resolution: {integrity: sha512-y4lGIjKPdy1gDyGgwZLpMgqcum04JZZ9UWKxO6WjxSEQ1IzaAFxgbiqcF5M4RWHXFqe5Wa549xXz/4F7DU9TYg==}
+    engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
-      postcss: ^8.2
+      postcss: ^8.4
     dependencies:
       postcss: 8.4.19
       postcss-value-parser: 4.2.0
