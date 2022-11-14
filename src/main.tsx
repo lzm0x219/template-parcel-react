@@ -10,12 +10,12 @@ const root = createRoot(container);
 const router = createBrowserRouter(routes);
 
 if (module.hot) {
-  module.hot.accept();
-  module.hot.dispose(() => router.dispose());
+	module.hot.accept();
+	module.hot.dispose(() => router.dispose());
 }
 
 root.render(
-  <StrictMode>
-    <RouterProvider router={router} />
-  </StrictMode>
+	<StrictMode>
+		<RouterProvider router={router} />
+	</StrictMode>,
 );
