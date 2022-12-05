@@ -41,7 +41,7 @@
     "http-server": "14.1.1",
     "husky": "8.0.2",
     "is-ci": "3.0.1",
-    "lint-staged": "13.0.4",
+    "lint-staged": "13.1.0",
     "parcel": "2.8.0",
     "postcss": "8.4.19",
     "postcss-custom-properties": "13.0.0",
