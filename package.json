@@ -43,7 +43,7 @@
     "is-ci": "3.0.1",
     "lint-staged": "13.1.0",
     "parcel": "2.8.1",
-    "postcss": "8.4.19",
+    "postcss": "8.4.20",
     "postcss-custom-properties": "13.0.0",
     "postcss-import": "15.1.0",
     "postcss-url": "10.1.3",
